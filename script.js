@@ -205,4 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // inicializa o jogo
     const game = new Game();
-    console.log('Hack & Slash: inicia
+    console.log('Hack & Slash: iniciando jogo');
+    game.start();
+
+});
